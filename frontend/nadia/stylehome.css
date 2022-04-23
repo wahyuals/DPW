@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{    
+    padding: 0px;
+    background-image: url(bghome.png);
+    font-family: 'Poppins';
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+    
+}
+nav,ul{
+    list-style: none;
+    display:inline-block;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+nav,ul,a{
+    text-decoration: none;
+    color: rgb(55, 162, 204);
+    font-size: 20px;
+}
+
+.judul{
+    flex-basis: 50%;
+}
+h1.heading1{
+    margin-top: 130px;
+    color: rgb(31, 4, 4);
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    color: black;
+    font-size: 40px;
+    margin: 0px;
+}
+h4{
+    color: black;
+    font-size: 13px;
+    text-align: right;
+    margin: 0px;
+}
+p{
+    color: rgb(31, 4, 4);
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-right: 55px;
+}
+p.htjs{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+    line-height: 25px;
+    color: black;
+    text-align: justify;
+}
+    .grid {
+        margin-top: 310px;
+        background-color: salmon;
+        padding: 15px;
+        height: 700px;
+        /* Clear floats after the columns */
+        content: "";
+        display: table;
+        clear: both;
+  }
+
+        /*background-color: white; */
+      .gridr {
+        font-size: 30px;
+        text-align: center;
+        float: left;
+        width: 45%;
+        padding-top: 100px;
+        padding-left: 0px;
+      }
+      .gridl {
+        font-size: 30px;
+        text-align: center;
+        float: right;
+        width: 45%;
+        padding-top: 100px;
+        padding-left: 50px;
+      }
+      /* Add a card effect for articles */
+.card {
+    background-color: white;
+    border: solid white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+img.img{
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    cursor:pointer;
+}
+div.footer{
+    position: relative;
+    background-color: black;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button{
+    background-color: rgb(70, 140, 180);
+    padding: 15px 20px;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    border: 2px solid;
+}
+

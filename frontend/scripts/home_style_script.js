@@ -1,4 +1,4 @@
-console.log("Selamat Datang Du Konsol web saya");
+console.log("Hello world, welcome to Console Log of my blog");
 
 const navbar = document.getElementsByClassName("navbar")[0];
 navbar.style.width = "85%";
@@ -6,8 +6,8 @@ navbar.style.margin = "20px";
 navbar.style.padding = "35px";
 
 const logo = document.getElementsByClassName("logo");
-logo[0].style.width="100px";
- 
+logo[0].style.width="120px";
+
 const a = document.querySelectorAll("a");
 for (let i=0; i<3; i++){
  a[i].style.color= "white";
@@ -16,11 +16,11 @@ for (let i=0; i<3; i++){
 }
 
 var h1 = document.getElementsByTagName("h1");
-h1[0].innerHTML="Selamat Datang Sobat Diksi"
+h1[0].innerHTML="Hello World, Welcome !"
 h1[0].style.color= "white";
 
 var p = document.getElementsByTagName("p");
-p[0].innerHTML="<b>Semua luka hanya canda yang terbungkus rapi dengan rasa <br> Teruslah Mengagumi hingga memiliki</b>";
+p[0].innerHTML="Mari lihat keseruan menggunakan Javascript DOM ini ;)";
 p[0].style.color="white";
 
 let blog = document.getElementById("blog");
@@ -31,17 +31,19 @@ blog.style.alignItems="center";
 blog.style.padding="40px";
 
 let h3 = document.getElementsByTagName("h3")[0];
-h3.innerHTML="Kumpulan Diksi";
+h3.innerHTML="Coba lihat postingan saya";
 h3.style.color="#f15030";
 
 let h6 = document.getElementsByTagName("h6");
 for (let i=0; i<h6.length; i++){
     h6[i].style.color="#f15030";
     h6[i].style.fontSize="12px";
+    h6[i].style.fontSize="12px";
+    h6[i].style.marginTop="-20px";
 }
 
 const footer = document.getElementsByTagName("footer")[0];
 footer.style.textAlign="center";
 footer.style.padding="3px";
-footer.style.backgroundColor ="#964b00";
+footer.style.backgroundColor ="#70270d";
 footer.style.color="white";

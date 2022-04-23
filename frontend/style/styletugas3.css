@@ -1,0 +1,89 @@
+.heading {
+    background-image: url("/frontend/image/kayu.jpg");
+    background-size: 1335px 700px;                      
+    background-repeat:   no-repeat;
+    background-position: center;
+    width: 1333px;
+    height: 700px;
+    padding-top: 0px;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+  
+li {
+    float: right;
+    font-family: sans-serif;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    
+}
+  
+li a:hover {
+    background-color: rgb(100, 98, 98);
+    text-decoration: none;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.textb{
+    text-align: left;
+    font-family: sans-serif;
+    padding-left: 200px;
+    padding-top: 20px;
+    column-span: all;
+}
+
+.box {
+    border: 1px solid black;
+    background-color: none;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+#column {
+    flex: 50%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.readmore {
+    background-color: rgb(100, 98, 98) ;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+    margin-left: 260px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: black;
+    height: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    padding: 10px;
+    font-size: 10;
+}
